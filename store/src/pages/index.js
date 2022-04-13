@@ -6,23 +6,23 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Taqueria</title>
+        <title>Better Taqueria</title>
         <meta name="description" content="Mi Taqueria" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the Taqueria!
+          Welcome to the Better Taqueria!
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://www.merriam-webster.com/dictionary/taco" className={styles.card}>
+          <a href="https://www.annastaqueria.com/" className={styles.card}>
             <h2>Tacos &rarr;</h2>
             <p>Crispy or soft corn or wheat tortilla that is folded or rolled and stuffed with a mixture!</p>
           </a>
 
-          <a href="https://www.merriam-webster.com/dictionary/burrito" className={styles.card}>
+          <a href="https://www.annastaqueria.com/" className={styles.card}>
             <h2>Burritos &rarr;</h2>
             <p>A flour tortilla rolled or folded around a filling (as of meat, beans, and cheese)!</p>
           </a>
