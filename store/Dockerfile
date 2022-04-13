@@ -1,19 +1,19 @@
-FROM node:alpine
+FROM node:latest
 
-RUN mkdir -p /usr/site/app
+RUN mkdir -p /usr/src/app
 ENV PORT 3000
 
-WORKDIR /usr/site/app
+WORKDIR /usr/src/app
 
-COPY package.json /usr/site/app
-COPY yarn.lock /usr/site/app
+COPY package.json /usr/src/app
+COPY yarn.lock /usr/src/app
 
 # Production use node instead of root
 # USER node
 
 RUN yarn install --production
 
-COPY . /usr/site/app
+COPY . /usr/src/app
 
 RUN yarn build
 
