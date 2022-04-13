@@ -15,7 +15,7 @@ spec:
         app: storefront
     spec:
       containers:
-      - image: nategrieb/taco-shop-better
+      - image: nategrieb/taco-shop-better:latest
         name: storefront
         ports:
         - containerPort: 3000
