@@ -18,12 +18,12 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://www.annastaqueria.com/" className={styles.card}>
-            <h2>Tacos &rarr;</h2>
+            <h2>Better Tacos &rarr;</h2>
             <p>Crispy or soft corn or wheat tortilla that is folded or rolled and stuffed with a mixture!</p>
           </a>
 
           <a href="https://www.annastaqueria.com/" className={styles.card}>
-            <h2>Burritos &rarr;</h2>
+            <h2>Better Burritos &rarr;</h2>
             <p>A flour tortilla rolled or folded around a filling (as of meat, beans, and cheese)!</p>
           </a>
         </div>
