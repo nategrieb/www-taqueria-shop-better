@@ -1,10 +1,10 @@
-# Mi Taqueria
+# Better Taqueria
 
 This repository contains the source code for a simple web application that is deployed on Section.
 
 Environment information:
 
-* Application: [cjbrewer/storefront:0.0.1]()
+* Application: [nategrieb/taco-shop-better:latest]()
 * API: [cjbrewer/api:0.0.1]()
 * Router: Section mananged OpenResty `gcr.io/section-io/openresty:1.19.3.1-k3`
 * KEI Endpoint: `https://redacted.kube.api.section.io/`
