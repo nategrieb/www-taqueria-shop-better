@@ -1,6 +1,6 @@
 FROM node:alpine
 
-RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/site/app
 ENV PORT 3000
 
 WORKDIR /usr/site/app
